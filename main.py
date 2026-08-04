@@ -78,9 +78,6 @@ canvas.grid(column=1, row=1, pady=(5, 15))
 start_button = Button(text="Start", font=(FONT_NAME, 16), command=start_timer)
 start_button.grid(column=0, row=2)
 
-pause_button = Button(text="Pause", font=(FONT_NAME, 16))
-pause_button.grid(column=1, row=2)
-
 reset_button = Button(text="Reset", font=(FONT_NAME, 16), command=reset_timer)
 reset_button.grid(column=2, row=2)
 
